@@ -1,0 +1,132 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+/* title section */
+#title{
+    color: #fff;
+    background-color: #ff4c68;
+}
+.container{
+    padding: 3% 15% !important;
+}
+.navbar-brand{
+    font-weight: 500;
+    font-family: "ubuntu" ;
+    font-size: 2rem !important;
+}
+h1{
+    font-weight: bold !important;
+    font-size: 3rem ;
+    line-height: 1.5 ;
+}
+.title-img{
+    max-width: 104%;
+    transform: rotate(25deg);
+    position: relative;
+    top: 100px;
+}
+
+/* features section */
+#features{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15% ;
+    z-index: 1;
+    position: relative;
+}
+#features h4{
+    font-weight: 800;
+}
+#features p{
+    color: grey;
+    font-size: o.5rem;
+}
+.features-box{
+    padding: 0 3%;  
+}
+.icon{
+    font-size: 3rem;
+    padding: 3%;
+}
+.icon:hover{
+    color: #ff4c68 !important;
+}
+
+/* testimonial section */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15% ;
+}
+.testi-img{
+    width: 12%;
+    margin: 20px;
+    
+}
+#testimonials h3{
+    font-size: 2.5rem;
+    font-weight:900;
+    line-height: 1.5;
+} 
+
+/* press section */
+#press{
+    background-color: #ef8172;
+    padding-bottom:3% ;
+    text-align: center;
+}
+.press-img{
+    width: 12%;
+    margin: 20px 50px;
+}
+
+/* princing section */
+#pricing{
+    text-align: center;
+    padding: 7% 7% ;
+}
+
+/* footer section */
+#footer{
+    color: #fff;
+    background-color: #ff4c68;
+    padding: 7% 15% ;
+    text-align: center;
+}
+#footer2{
+    padding: 5% 5% ;
+    text-align: center;
+}
+
+/* media queries */
+@media (max-width: 991px){
+    .title-img{
+        left: 15px;
+        top: 174px
+    }
+    
+}
+@media (max-width: 770px) {
+   .title-img{
+        padding-top:40px ;
+        max-width: 104%;
+        transform: rotate(0);
+        position: static !important;
+        top: 100px;
+    }
+    #title h1{
+        text-align: center;
+        padding-top: 40px;
+    }
+   #features{ 
+        z-index: 0;
+    }
+}
